@@ -28,7 +28,7 @@ class MenuBar():
 
 
 
-        self.menubar.add_cascade(label='Nota', menu=self.file_menu)
+        self.menubar.add_cascade(label='Arquivo', menu=self.file_menu)
         self.menubar.add_cascade(label='Impressão', menu=self.impressao_menu)
         self.root.config(menu=self.menubar)
 
