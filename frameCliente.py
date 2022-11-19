@@ -19,7 +19,7 @@ class FrameCliente():
 
         # self.frame_cl.place(x=0,y=0, width=740)
         self.frame_cl.pack(fill='x' )
-        self.frame_cl.configure(background='white')
+        # self.frame_cl.configure()
 
         # ELEMENTOS DA LINHA 0
         self.lbl_cliente.grid(row=0, column=0, padx=self.pad_x, pady=self.pad_y)
